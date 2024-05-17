@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../../server/firebase';
+import { useNavigate } from 'react-router-dom';
+
 import './Login.css'
 
 function Login() {
+  const navigate=useNavigate();
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -19,7 +22,8 @@ function Login() {
       console.log('User successfully logged in');
       console.log(formData.email+" "+formData.password);
       
-      window.location.href = '/Home'; 
+      // window.location.href = '/Home'; 
+      navigate('/Home'); 
     } catch (error) {
       console.error('Error logging in:', error.message); 
       alert("Invalid email or password");
