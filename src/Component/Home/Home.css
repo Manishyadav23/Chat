@@ -1,0 +1,19 @@
+*{
+    margin: 1px;
+    overflow: hidden;
+    
+}
+body{
+    /* background-color: rgba(228, 213, 213, 0.819); */
+    background-color: rgba(9, 1, 1, 0.748);
+    
+}
+.hom{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width: 600px){
+    .cl{
+        display: none;
+    }
+}

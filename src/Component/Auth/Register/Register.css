@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+}
+
+.R-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    /* background-image: linear-gradient(yellow, red); */
+}
+.error{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 10px;
+}
+.bcontainer{
+    border: 2px solid red;
+    padding: 20px;
+    /* background-image: linear-gradient(yellow, red); */
+}

@@ -1,0 +1,261 @@
+.mg{
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: red; */
+    
+    width: 73vw;
+}
+.msghead{
+    width: 40vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.mess{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    /* background-color: white; */
+    background-color: rgb(227, 217, 204);
+    width: 40vw;
+    height: 50vh;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.txt ul{
+    padding: 0%;
+}
+.message-text{
+    inline-size: 35vw;
+    overflow-wrap: break-word;    
+}
+.in input{
+    width: 65vw;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.msgimg{
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+}
+.uploadimg{
+    height: 30vh;
+    width: 50vw;
+}
+.msgsearch input{
+    width: 20vw;
+}
+.ri{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    width: 20vw;
+    height: 50vh;
+    gap: 5px;
+    /* height: fit-content; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.chn, .top, .cb{
+    border: 2px solid rgb(148, 146, 146);
+    padding: 5px;
+    width: 18vw;
+}
+
+.in{
+    position: absolute;
+    bottom: 65px;
+}
+.btnn{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+.btnn button{
+    width: 33vw;
+    padding: 6px;
+    background-color: aqua;
+    font-size: 20px;
+}
+.btnn input[type="file"]{
+    width: 33vw;
+    padding: 4px;
+    font-size: 20px;
+    background-color: rgb(0, 255, 179);
+    border: 1.8px solid black;
+    margin-left: 1px;
+}
+.top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.top img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.chn p,h4{
+    border: 2px solid rgb(148, 146, 146);
+    padding: 5px;
+}
+.cb p{
+    margin: 0px;
+}
+
+.inph{
+    position: absolute;
+    bottom: 40vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    left: 20vw;
+    right: 20vw;
+    z-index: 99;
+    width: 60vw;
+}
+.phosend{
+    background-color: white;
+}
+.phosend input{
+    padding: 10px;
+    width: 35vw;
+}
+.phbttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.phbttn button{
+    margin-top: 10px;
+    width: 10vw;
+    background-color: rgb(51, 168, 51);
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.phbttn .cncl{
+    background-color: rgb(231, 19, 19);
+}
+
+.pplay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(49, 49, 49, 0.8);
+    z-index: 9;
+}
+.btnn .sendbtn{
+    background-color: rgb(186, 87, 210);
+}
+.bcont{
+    position: absolute;
+    bottom: 10px;
+    width: 67vw;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .ri{
+        display: none;
+    }
+    .msghead{
+        width: 60vw;
+    }
+    .msghead input{
+        width: 55vw;
+    }
+    .txt{
+        width: 60vw;
+        background-color: rgb(103, 81, 109);
+
+    }
+    .bcont{
+        height: 140px;
+        width: 66vw;
+    }
+    .btnn{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .btnn button{
+        width: 60vw;
+    }
+    .in{
+        bottom: 100px;
+    }
+    .in input{
+        width: 55vw;
+    }
+}
+
+
+
+.ri{
+    display: none;
+}
+.txt{
+    width: 69vw;
+    height: 68vh;
+    border-radius: 10px;
+    background-color: #EEEEEE !important;
+}
+.msghead{
+    width: 69vw;
+    border-radius: 10px;
+}
+.bcont{
+    width: 69vw;
+}
+.in input{
+    border: 1px solid black;    
+    border-radius: 10px;
+}
+.msgsearch input{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.uploadimg{
+    max-width: 400px;
+}
+.adr{
+    background-color: #8B93FF !important;
+    border-radius: 10px;
+}
+.sendbtn
+{
+    background-color: #8B93FF !important;
+    border-radius: 10px;
+ 
+}
