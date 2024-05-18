@@ -12,7 +12,7 @@ function App() {
       {/* <div>
         <h1>Slack2.OO</h1>
       </div> */}
-      <Routes>
+      <Routes basename="/tothepoint_login">
       <Route path='/side' element={<Side/>}/>
       <Route path='/' element={<Login/>}/>
         <Route path='/Home' element={<Home/>}/>
