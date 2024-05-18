@@ -29,7 +29,7 @@ function Register() {
         });
 
         const { id, photoURL, displayName } = auth.currentUser;
-        navigate("/Home", {state:{id:id,photo:photoURL, name:displayName}});
+        navigate("/home", {state:{id:id,photo:photoURL, name:displayName}});
         console.log("id is "+id);
         
         const db = getDatabase();

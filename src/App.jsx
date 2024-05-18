@@ -16,6 +16,7 @@ function App() {
       <Route path='/side' element={<Side/>}/>
       <Route path='/' element={<Login/>}/>
         <Route path='/Home' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path="/chat/:channelId" element={<Home/>} />
