@@ -10,7 +10,7 @@ body{
 }
 .hom{
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 @media screen and (max-width: 600px){
     .cl{

@@ -195,6 +195,7 @@
     }
     .txt{
         width: 60vw;
+        height: 58vh !important;
         background-color: rgb(103, 81, 109);
 
     }

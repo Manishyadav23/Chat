@@ -144,7 +144,7 @@ function Register() {
                 <button type="submit">Submit</button>
               </div>
               <div className="R-down">
-                <h4>Already a user? <Link to="/Login">Login</Link></h4>
+                <h4>Already a user? <Link to="/Login" style={{color:"white"}}>Login</Link></h4>
               </div>
             </form>
           </div>

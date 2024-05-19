@@ -65,8 +65,11 @@ function Login() {
               <div className="button">
                 <button type="submit">Submit</button>
               </div>
+              <dic className="fpass">
+                <Link to="/forgetpassword" style={{color:"white"}}>Forget Password</Link>
+              </dic>
               <div className="R-down">
-                <h4>Not an account? <Link to="/Register">Register</Link></h4>
+                <h4>Not an account? <Link to="/Register" style={{color:"white"}}>Register</Link></h4>
               </div>
             </form>
           </div>

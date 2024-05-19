@@ -166,7 +166,7 @@ function Message() {
   }
 
   const openModel = () => {
-    setomodel(true);
+    setomodel(!omodel);
   };
 
   function sendPhotoes() {

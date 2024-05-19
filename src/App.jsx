@@ -4,7 +4,7 @@ import Login from './Component/Auth/Login/Login'
 import Register from './Component/Auth/Register/Register'
 import Home from './Component/Home/Home'
 import Side from './Component/Side/Side'
-import Message from './Component/Message/Message'
+import PasswordReset from './Component/PasswordReset/PasswordReset'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route path="/chat/:channelId" element={<Home/>} />
         {/* <Route path="/message/:userId" element={<Home/>} /> */}
         <Route path="/chat/direct/:userId" element={<Home/>} />
+        <Route path='/forgetpassword' element={<PasswordReset/>}/>
 
 
 

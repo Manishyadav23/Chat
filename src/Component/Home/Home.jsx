@@ -11,9 +11,9 @@ function Home() {
     
     <div className='hom'>
       {/* <Link to='/Login'>Signout</Link> */}
-      <div className='cl'>
+      {/* <div className='cl'>
         <Color/>
-      </div>
+      </div> */}
       
       <div>
         <Side/>
