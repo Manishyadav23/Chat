@@ -96,7 +96,7 @@ function Side() {
 
   const handleUserSelection = (userId) => {
     setSelectedUser(userId);
-    navigate(`/chat/direct/${userId}`); // Navigate to direct message chat with the selected user
+    navigate(`/chat/direct/${userId}`);
   };
 
   const handleModel = () => {
